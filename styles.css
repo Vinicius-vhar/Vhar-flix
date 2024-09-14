@@ -1,0 +1,135 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(253, 0, 0);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(255, 0, 0);
+    display: flex;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    font-size: 17px;
+    align-items: center;
+    justify-items: center;
+}
+
+header a {
+    color: #fdfdfd;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header nav.menu-desktop a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff0000;
+}
+
+nav{
+    align-items: end;
+}
+
+.chamada {
+    background: rgb(100, 100, 100);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+    color: black;
+}
+
+.coloracao{
+    color: #ffff;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.coloracao2{
+    color: #000;
+    text-decoration: none;
+}
+
+.coloracao2:hover {
+    color: #ff0000;
+}
+
+.coloracao:hover{
+    color: rgb(255, 0, 0)
+}
+
+h1 {
+    font-size: 40px;
+    color: black;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(255, 0, 0);
+}
+
+.categoria h2 {
+    color: rgb(255, 0, 0);
+}
